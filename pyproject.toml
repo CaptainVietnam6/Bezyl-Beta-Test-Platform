@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "Bezyl-Beta-Test-Platform"
+name = "Bezyl-Discord-Bot-Production-Release"
 version = "0.0.1"
-description = "Bezyl Beta is a beta features testing platform for the production release Bezyl Discord Bot. Any new commands or features will be added to this bot before uploading to the production release bot"
+description = "Bezyl is a multi-purpose generalised Discord Bot that is based off of previous bots made by CaptainVietnam6, this time with more capabilities and a new, enhanced, and rebuilt code structure."
 authors = ["Kiet Pham <kiet.riley2005@gmail.com>"]
 
 [tool.poetry.dependencies]
