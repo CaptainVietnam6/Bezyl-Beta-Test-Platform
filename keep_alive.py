@@ -11,7 +11,7 @@ app = Flask("")
 
 @app.route("/")
 def home():
-    return "Bezyl is online and active"
+    return "Bezyl Beta is online and active"
 
 def run():
     app.run(host = "0.0.0.0", port = 8080)

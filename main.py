@@ -47,7 +47,7 @@ intents = discord.Intents().all()
 
 
 #BOT PREFIX
-bot_prefixes = ["bz ", "BZ ", "Bz ", "bZ ", "bz", "BZ", "Bz", "bZ"]
+bot_prefixes = ["bb ", "BB ", "Bb ", "bB ", "bb", "BB", "Bb", "bB"]
 client = commands.Bot(command_prefix = bot_prefixes, intents = intents)
 
 
@@ -96,14 +96,14 @@ for filename in os.listdir("./"):
 async def on_ready():
     await client.change_presence(status = discord.Status.online, activity = discord.Game("Programmed by CaptainVietnam6#0001 in Python 3.8.2"))
     await asyncio.sleep(float(1.5))
-    print("Bezyl is online and ready")
+    print("Bezyl Beta is online and ready")
 
     #notifications for CV6's Playground Server
     channel = client.get_channel(816179144961818634)
-    await channel.send("Bezyl is online and ready")
+    await channel.send("Bezyl Beta is online and ready")
     #notifications for CV6's Bots Server
     channel = client.get_channel(812974446801059860)
-    await channel.send("Bezyl is online and ready")
+    await channel.send("Bezyl Beta is online and ready")
 
     #joins CV6's Playground Server #beta-testing Voice Channel
     channel = client.get_channel(815933179378270208)
