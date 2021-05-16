@@ -10,7 +10,7 @@ Discord Server: https://discord.gg/3z76p8H5yj
 GitHub: https://github.com/CaptainVietnam6
 GitHub Repo: https://github.com/CaptainVietnam6/Bezyl-Discord-Bot-Production-Release
 Instagram: @itz_kietttttttttt
-Program Status: ACTIVE - Beta Test Platform
+Program Status: ACTIVE - Production Release
 '''
 
 #imports related to discord or discord packages
